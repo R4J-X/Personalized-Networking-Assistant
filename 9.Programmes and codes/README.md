@@ -112,76 +112,101 @@ Full architecture documentation, including sequence and deployment diagrams, is 
 
 ```
 personalized-networking-assistant/
+├── 1. Brainstorming & Ideation
+│   ├── Brainstorming & Idea Prioritization.pdf
+│   ├── Define Problem Statements.pdf
+│   └── Empathy Map.pdf
 │
-├── 📂 1. Brainstorming & Ideation
-│   ├── Brainstorming & Idea Prioritization.md
-│   ├── Define Problem Statements.md
-│   └── Empathy Map.md
+├── 2. Requirement Analysis
+│   ├── Customer Journey Map.pdf
+│   ├── Data Flow Diagram.pdf
+│   ├── Solution Requirements.pdf
+│   └── Technology Stack.pdf
 │
-├── 📂 2. Requirement Analysis
-│   ├── Customer Journey Map.md
-│   ├── Data Flow Diagram.md
-│   ├── Solution Requirements.md
-│   └── Technology Stack.md
+├── 3. Project Design Phase
+│   ├── Problem-Solution Fit.pdf
+│   ├── Proposed Solution.pdf
+│   └── Solution Architecture.pdf
 │
-├── 📂 3. Project Design Phase
-│   ├── Problem-Solution Fit.md
-│   ├── Proposed Solution.md
-│   └── Solution Architecture.md
+├── 4. Project Planning Phase
+│   └── Project Planning.pdf
 │
-├── 📂 4. Project Planning Phase
-│   └── Project Planning.md
+├── 5. Project Development Phase
+│   ├── Code-Layout, Readability and Reusability.pdf
+│   ├── Coding & Solution.pdf
+│   └── No. of Functional Features Included in the Solution.pdf
 │
-├── 📂 5. Project Development Phase
-│   ├── Code Layout, Readability and Reusability.md
-│   ├── Coding & Solution.md
-│   └── Number of Functional Features Included in the Solution.md
+├── 6.Project Testing
+│   └── Performance Testing.pdf
 │
-├── 📂 6. Project Testing
-│   └── Performance Testing.md
+├── 7.Project Documentation
+│   ├── Project Executable Files.pdf
+│   └── Sample Project Documentation.pdf
 │
-├── 📂 7. Project Documentation
-│   ├── Project Executable Files.md
-│   └── Sample Project Documentation.md
+├── 8.Project Demonstration
+│   ├── Communication.pdf
+│   ├── Demonstration of Proposed Features.pdf
+│   ├── Project Demo Planning.pdf
+│   ├── Scalability & Future Plan.pdf
+│   └── Team Involvement in Demonstration.pdf
 │
-├── 📂 8. Project Demonstration
-│   ├── Communication.md
-│   ├── Demonstration of Proposed Features.md
-│   ├── Project Demo Planning.md
-│   ├── Scalability & Future Plan.md
-│   └── Team Involvement in Demonstration.md
+├── 9.Programmes and codes
+│   ├── app
+│   │   ├── models
+│   │   │   ├── __init__.py
+│   │   │   └── schemas.py
+│   │   │
+│   │   ├── routes
+│   │   │   ├── __init__.py
+│   │   │   └── conversation.py
+│   │   │
+│   │   ├── services
+│   │   │   ├── __init__.py
+│   │   │   ├── event_analyzer.py
+│   │   │   ├── fact_checker.py
+│   │   │   ├── feedback_logger.py
+│   │   │   ├── history_logger.py
+│   │   │   └── topic_generator.py
+│   │   │
+│   │   ├── __init__.py
+│   │   └── main.py
+│   │
+│   ├── data
+│   │   ├── .gitkeep
+│   │   ├── feedback.json
+│   │   └── history.json
+│   │
+│   ├── docs
+│   │   └── ER_DIAGRAM.md
+│   │
+│   ├── frontend
+│   │   └── streamlit_app.py
+│   │
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_event_analyzer.py
+│   │   ├── test_fact_checker.py
+│   │   ├── test_routes.py
+│   │   └── test_topic_generator.py
+│   │
+│   ├── Dockerfile
+│   ├── README.md
+│   └── requirements.txt
 │
-├── 📂 app/                          # FastAPI backend (source code)
-│   ├── main.py
-│   ├── models/schemas.py
-│   ├── services/
-│   │   ├── event_analyzer.py
-│   │   ├── topic_generator.py
-│   │   ├── fact_checker.py
-│   │   ├── history_logger.py
-│   │   └── feedback_logger.py
-│   └── routes/conversation.py
+├── 10.Screenshots
+│   ├── 1_Swagger_UI.png
+│   ├── 2_Homepage.png
+│   ├── 3_History.png
+│   ├── 4_Feedback.png
+│   └── 5_Fact_Check.png
 │
-├── 📂 frontend/                     # Streamlit UI (source code)
-│   └── app.py
+├── Video
+│   └── DEMOvideo.md
 │
-├── 📂 tests/                        # pytest test suite
-│   ├── test_event_analyzer.py
-│   ├── test_topic_generator.py
-│   ├── test_fact_checker.py
-│   └── test_routes.py
-│
-├── 📂 data/                         # Runtime JSON storage (git-ignored contents)
-├── 📂 docs/
-│   └── ER_DIAGRAM.md                # Reference relational data model
-├── 📂 .github/workflows/ci.yml      # GitHub Actions CI pipeline
-│
-├── Dockerfile
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+└── LICENSE
 ```
+
+---
 
 ## Installation
 
