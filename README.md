@@ -44,7 +44,7 @@ This repository is organized following an industry-standard **AI/ML project life
 
 > Professionals attending networking events frequently struggle to initiate confident, relevant, and factually accurate conversations due to a lack of quick contextual preparation, verification tools, and structured follow-up — resulting in missed relationship-building opportunities and unnecessary social anxiety.
 
-See `1. Brainstorming & Ideation/Define Problem Statements.md` for the full problem statement canvas and persona-level breakdown.
+See `01. Brainstorming & Ideation/Define Problem Statements.md` for the full problem statement canvas and persona-level breakdown.
 
 ## Features
 
@@ -71,7 +71,7 @@ See `1. Brainstorming & Ideation/Define Problem Statements.md` for the full prob
 | Testing | pytest, httpx, pytest-cov |
 | DevOps | Docker, GitHub Actions |
 
-Full rationale in `2. Requirement Analysis/Technology Stack.md`.
+Full rationale in `02. Requirement Analysis/Technology Stack.md`.
 
 ## Architecture
 
@@ -106,51 +106,51 @@ flowchart LR
     API --> FL --> FJ
 ```
 
-Full architecture documentation, including sequence and deployment diagrams, is in `3. Project Design Phase/Solution Architecture.md`.
+Full architecture documentation, including sequence and deployment diagrams, is in `03. Project Design Phase/Solution Architecture.md`.
 
 ## Repository Structure
 
 ```
 personalized-networking-assistant/
-├── 1. Brainstorming & Ideation
+├── 01. Brainstorming & Ideation
 │   ├── Brainstorming & Idea Prioritization.pdf
 │   ├── Define Problem Statements.pdf
 │   └── Empathy Map.pdf
 │
-├── 2. Requirement Analysis
+├── 02. Requirement Analysis
 │   ├── Customer Journey Map.pdf
 │   ├── Data Flow Diagram.pdf
 │   ├── Solution Requirements.pdf
 │   └── Technology Stack.pdf
 │
-├── 3. Project Design Phase
+├── 03. Project Design Phase
 │   ├── Problem-Solution Fit.pdf
 │   ├── Proposed Solution.pdf
 │   └── Solution Architecture.pdf
 │
-├── 4. Project Planning Phase
+├── 04. Project Planning Phase
 │   └── Project Planning.pdf
 │
-├── 5. Project Development Phase
+├── 05. Project Development Phase
 │   ├── Code-Layout, Readability and Reusability.pdf
 │   ├── Coding & Solution.pdf
 │   └── No. of Functional Features Included in the Solution.pdf
 │
-├── 6.Project Testing
+├── 06.Project Testing
 │   └── Performance Testing.pdf
 │
-├── 7.Project Documentation
+├── 07.Project Documentation
 │   ├── Project Executable Files.pdf
 │   └── Sample Project Documentation.pdf
 │
-├── 8.Project Demonstration
+├── 08.Project Demonstration
 │   ├── Communication.pdf
 │   ├── Demonstration of Proposed Features.pdf
 │   ├── Project Demo Planning.pdf
 │   ├── Scalability & Future Plan.pdf
 │   └── Team Involvement in Demonstration.pdf
 │
-├── 9.Programmes and codes
+├── 09.Programmes and codes
 │   ├── app
 │   │   ├── models
 │   │   │   ├── __init__.py
@@ -347,7 +347,7 @@ Full request/response examples are documented inline in the FastAPI Swagger UI (
 pytest -v --cov=app tests/
 ```
 
-Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `6. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
+Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `06. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
 
 ## 📸 Application Screenshots
 
@@ -385,7 +385,7 @@ Watch the complete end-to-end demonstration of the Personalized Networking Assis
 - Feedback-driven recommendation/re-ranking loop
 - Cloud deployment with Docker + CI/CD (workflow already scaffolded in `.github/workflows/ci.yml`)
 
-Full roadmap in `8. Project Demonstration/Scalability & Future Plan.md`.
+Full roadmap in `08. Project Demonstration/Scalability & Future Plan.md`.
 
 ## Contributors
 
