@@ -20,7 +20,7 @@ This document provides a brief overview of the folders and files present in the 
 
 # Project Structure
 
-```personalized-networking-assistant/
+personalized-networking-assistant/
 ├── 1. Brainstorming & Ideation
 │   ├── Brainstorming & Idea Prioritization.pdf
 │   ├── Define Problem Statements.pdf
