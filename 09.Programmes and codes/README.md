@@ -177,7 +177,7 @@ personalized-networking-assistant/
 │   │   └── history.json
 │   │
 │   ├── docs
-│   │   └── ER_DIAGRAM.md
+│   │   └── ER_DIAGRAM.pdf
 │   │
 │   ├── frontend
 │   │   └── streamlit_app.py
