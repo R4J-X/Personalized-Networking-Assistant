@@ -44,7 +44,7 @@ This repository is organized following an industry-standard **AI/ML project life
 
 > Professionals attending networking events frequently struggle to initiate confident, relevant, and factually accurate conversations due to a lack of quick contextual preparation, verification tools, and structured follow-up — resulting in missed relationship-building opportunities and unnecessary social anxiety.
 
-See `1. Brainstorming & Ideation/Define Problem Statements.md` for the full problem statement canvas and persona-level breakdown.
+See `01. Brainstorming & Ideation/Define Problem Statements.md` for the full problem statement canvas and persona-level breakdown.
 
 ## Features
 
@@ -71,7 +71,7 @@ See `1. Brainstorming & Ideation/Define Problem Statements.md` for the full prob
 | Testing | pytest, httpx, pytest-cov |
 | DevOps | Docker, GitHub Actions |
 
-Full rationale in `2. Requirement Analysis/Technology Stack.md`.
+Full rationale in `02. Requirement Analysis/Technology Stack.md`.
 
 ## Architecture
 
@@ -106,82 +106,107 @@ flowchart LR
     API --> FL --> FJ
 ```
 
-Full architecture documentation, including sequence and deployment diagrams, is in `3. Project Design Phase/Solution Architecture.md`.
+Full architecture documentation, including sequence and deployment diagrams, is in `03. Project Design Phase/Solution Architecture.md`.
 
 ## Repository Structure
 
 ```
 personalized-networking-assistant/
+├── 01. Brainstorming & Ideation
+│   ├── Brainstorming & Idea Prioritization.pdf
+│   ├── Define Problem Statements.pdf
+│   └── Empathy Map.pdf
 │
-├── 📂 1. Brainstorming & Ideation
-│   ├── Brainstorming & Idea Prioritization.md
-│   ├── Define Problem Statements.md
-│   └── Empathy Map.md
+├── 02. Requirement Analysis
+│   ├── Customer Journey Map.pdf
+│   ├── Data Flow Diagram.pdf
+│   ├── Solution Requirements.pdf
+│   └── Technology Stack.pdf
 │
-├── 📂 2. Requirement Analysis
-│   ├── Customer Journey Map.md
-│   ├── Data Flow Diagram.md
-│   ├── Solution Requirements.md
-│   └── Technology Stack.md
+├── 03. Project Design Phase
+│   ├── Problem-Solution Fit.pdf
+│   ├── Proposed Solution.pdf
+│   └── Solution Architecture.pdf
 │
-├── 📂 3. Project Design Phase
-│   ├── Problem-Solution Fit.md
-│   ├── Proposed Solution.md
-│   └── Solution Architecture.md
+├── 04. Project Planning Phase
+│   └── Project Planning.pdf
 │
-├── 📂 4. Project Planning Phase
-│   └── Project Planning.md
+├── 05. Project Development Phase
+│   ├── Code-Layout, Readability and Reusability.pdf
+│   ├── Coding & Solution.pdf
+│   └── No. of Functional Features Included in the Solution.pdf
 │
-├── 📂 5. Project Development Phase
-│   ├── Code Layout, Readability and Reusability.md
-│   ├── Coding & Solution.md
-│   └── Number of Functional Features Included in the Solution.md
+├── 06.Project Testing
+│   └── Performance Testing.pdf
 │
-├── 📂 6. Project Testing
-│   └── Performance Testing.md
+├── 07.Project Documentation
+│   ├── Project Executable Files.pdf
+│   └── Sample Project Documentation.pdf
 │
-├── 📂 7. Project Documentation
-│   ├── Project Executable Files.md
-│   └── Sample Project Documentation.md
+├── 08.Project Demonstration
+│   ├── Communication.pdf
+│   ├── Demonstration of Proposed Features.pdf
+│   ├── Project Demo Planning.pdf
+│   ├── Scalability & Future Plan.pdf
+│   └── Team Involvement in Demonstration.pdf
 │
-├── 📂 8. Project Demonstration
-│   ├── Communication.md
-│   ├── Demonstration of Proposed Features.md
-│   ├── Project Demo Planning.md
-│   ├── Scalability & Future Plan.md
-│   └── Team Involvement in Demonstration.md
+├── 09.Programmes and codes
+│   ├── app
+│   │   ├── models
+│   │   │   ├── __init__.py
+│   │   │   └── schemas.py
+│   │   │
+│   │   ├── routes
+│   │   │   ├── __init__.py
+│   │   │   └── conversation.py
+│   │   │
+│   │   ├── services
+│   │   │   ├── __init__.py
+│   │   │   ├── event_analyzer.py
+│   │   │   ├── fact_checker.py
+│   │   │   ├── feedback_logger.py
+│   │   │   ├── history_logger.py
+│   │   │   └── topic_generator.py
+│   │   │
+│   │   ├── __init__.py
+│   │   └── main.py
+│   │
+│   ├── data
+│   │   ├── .gitkeep
+│   │   ├── feedback.json
+│   │   └── history.json
+│   │
+│   ├── docs
+│   │   └── ER_DIAGRAM.md
+│   │
+│   ├── frontend
+│   │   └── streamlit_app.py
+│   │
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_event_analyzer.py
+│   │   ├── test_fact_checker.py
+│   │   ├── test_routes.py
+│   │   └── test_topic_generator.py
+│   │
+│   ├── Dockerfile
+│   ├── README.md
+│   └── requirements.txt
 │
-├── 📂 app/                          # FastAPI backend (source code)
-│   ├── main.py
-│   ├── models/schemas.py
-│   ├── services/
-│   │   ├── event_analyzer.py
-│   │   ├── topic_generator.py
-│   │   ├── fact_checker.py
-│   │   ├── history_logger.py
-│   │   └── feedback_logger.py
-│   └── routes/conversation.py
+├── 10.Screenshots
+│   ├── 1_Swagger_UI.png
+│   ├── 2_Homepage.png
+│   ├── 3_History.png
+│   ├── 4_Feedback.png
+│   └── 5_Fact_Check.png
 │
-├── 📂 frontend/                     # Streamlit UI (source code)
-│   └── app.py
+├── Video
+│   └── DEMOvideo.md
 │
-├── 📂 tests/                        # pytest test suite
-│   ├── test_event_analyzer.py
-│   ├── test_topic_generator.py
-│   ├── test_fact_checker.py
-│   └── test_routes.py
-│
-├── 📂 data/                         # Runtime JSON storage (git-ignored contents)
-├── 📂 docs/
-│   └── ER_DIAGRAM.md                # Reference relational data model
-├── 📂 .github/workflows/ci.yml      # GitHub Actions CI pipeline
-│
-├── Dockerfile
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+└── LICENSE
 ```
+
+---
 
 ## Installation
 
@@ -322,17 +347,35 @@ Full request/response examples are documented inline in the FastAPI Swagger UI (
 pytest -v --cov=app tests/
 ```
 
-Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `6. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
+Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `06. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
 
-## Demo
+## 📸 Application Screenshots
 
-> 📷 *Screenshot Placeholder: Streamlit home screen*
-> 📷 *Screenshot Placeholder: Generated conversation starters*
-> 📷 *Screenshot Placeholder: Fact-check result*
-> 🎥 *Video Placeholder: Full end-to-end demo walkthrough*
+### 🏠 Homepage
+![Homepage](10.Screenshots/2_Homepage.png)
 
-See `8. Project Demonstration/` for the full demo script, planning, and feature checklist.
+### 💬 Generated Conversation Starters
+![Conversation Starters](10.Screenshots/2_Homepage.png)
 
+### 📜 Conversation History
+![History](10.Screenshots/3_History.png)
+
+### 👍 Feedback Page
+![Feedback](10.Screenshots/4_Feedback.png)
+
+### 🔍 Fact Check
+![Fact Check](10.Screenshots/5_Fact_Check.png)
+
+### 📚 Swagger API Documentation
+![Swagger UI](10.Screenshots/1_Swagger_UI.png)
+
+---
+
+## 🎥 Demo Video
+
+Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 ## Future Scope
 
 - Migrate JSON storage to a relational database (schema documented in `docs/ER_DIAGRAM.md`)
@@ -342,7 +385,7 @@ See `8. Project Demonstration/` for the full demo script, planning, and feature 
 - Feedback-driven recommendation/re-ranking loop
 - Cloud deployment with Docker + CI/CD (workflow already scaffolded in `.github/workflows/ci.yml`)
 
-Full roadmap in `8. Project Demonstration/Scalability & Future Plan.md`.
+Full roadmap in `08. Project Demonstration/Scalability & Future Plan.md`.
 
 ## Contributors
 
@@ -355,4 +398,5 @@ Full roadmap in `8. Project Demonstration/Scalability & Future Plan.md`.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+## 📄 LICENSE
+Contains licensing information for the project.
