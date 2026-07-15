@@ -349,15 +349,33 @@ pytest -v --cov=app tests/
 
 Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `6. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
 
-## Demo
+## 📸 Application Screenshots
 
-> 📷 *Screenshot Placeholder: Streamlit home screen*
-> 📷 *Screenshot Placeholder: Generated conversation starters*
-> 📷 *Screenshot Placeholder: Fact-check result*
-> 🎥 *Video Placeholder: Full end-to-end demo walkthrough*
+### 🏠 Homepage
+![Homepage](10.Screenshots/2_Homepage.png)
 
-See `8. Project Demonstration/` for the full demo script, planning, and feature checklist.
+### 💬 Generated Conversation Starters
+![Conversation Starters](10.Screenshots/2_Homepage.png)
 
+### 📜 Conversation History
+![History](10.Screenshots/3_History.png)
+
+### 👍 Feedback Page
+![Feedback](10.Screenshots/4_Feedback.png)
+
+### 🔍 Fact Check
+![Fact Check](10.Screenshots/5_Fact_Check.png)
+
+### 📚 Swagger API Documentation
+![Swagger UI](10.Screenshots/1_Swagger_UI.png)
+
+---
+
+## 🎥 Demo Video
+
+Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 ## Future Scope
 
 - Migrate JSON storage to a relational database (schema documented in `docs/ER_DIAGRAM.md`)
