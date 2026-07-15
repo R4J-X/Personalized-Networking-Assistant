@@ -398,8 +398,5 @@ Full roadmap in `08. Project Demonstration/Scalability & Future Plan.md`.
 
 ## License
 
-## 📁 Video
-Contains project demonstration information.
-
 ## 📄 LICENSE
 Contains licensing information for the project.
