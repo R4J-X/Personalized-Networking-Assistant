@@ -15,20 +15,23 @@ An AI-powered application that helps professionals walk into any networking even
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
 - [Features](#features)
-- [Architecture Overview](#architecture-overview)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [Repository Structure](#repository-structure)
+- [Installation](#installation)
+- [Running the Project in VS Code](#running-the-project-in-vs-code)
+- [Running from the Command Line](#running-from-the-command-line)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Service Layer Design](#service-layer-design)
+- [API Reference](#api-reference)
 - [Testing](#testing)
+- [Demo](#demo)
+- [Future Scope](#future-scope)
 - [Contributors](#contributors)
 - [License](#license)
+  
 ---
 
 ## Overview
