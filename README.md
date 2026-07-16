@@ -349,7 +349,7 @@ pytest -v --cov=app tests/
 
 Covers all four service modules (structural + mocked-network tests) and full route-level integration tests, including the `422` validation path. See `06. Project Testing/Performance Testing.md` for coverage targets and load-testing guidance.
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 ### 🏠 Homepage
 ![Homepage](10.Screenshots/2_Homepage.png)
@@ -371,7 +371,7 @@ Covers all four service modules (structural + mocked-network tests) and full rou
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
 
