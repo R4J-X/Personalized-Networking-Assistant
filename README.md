@@ -27,6 +27,7 @@ An AI-powered application that helps professionals walk into any networking even
 - [Usage](#usage)
 - [API Reference](#api-reference)
 - [Testing](#testing)
+- [Application Screenshots](#application-screenshots)
 - [Demo](#demo)
 - [Future Scope](#future-scope)
 - [Contributors](#contributors)
