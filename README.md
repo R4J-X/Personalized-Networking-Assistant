@@ -16,6 +16,10 @@ An AI-powered application that helps professionals walk into any networking even
 
 Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
 
+**▶️ Demo Video:**
+https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing
+
+Or click here:
 [▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 
 ## Table of Contents
