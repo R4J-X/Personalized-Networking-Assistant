@@ -201,8 +201,8 @@ personalized-networking-assistant/
 │   ├── 4_Feedback.png
 │   └── 5_Fact_Check.png
 │
-├── Video
-│   └── DEMOvideo.md
+├── DEMO_Video.md
+│   
 │
 └── LICENSE
 ```
