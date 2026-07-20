@@ -1,17 +1,17 @@
 # 🤝 Personalized Networking Assistant
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.36-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Hugging Face](https://img.shields.io/badge/🤗%20Transformers-4.42-yellow)](https://huggingface.co/docs/transformers/)
-[![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](./.github/workflows/ci.yml)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
-
 An AI-powered application that helps professionals walk into any networking event with confidence. Give it an **event description** and your **interests**, and it will generate personalized conversation starters, fact-check topics in real time, and keep a history of everything for you.
 
 ---
+## Demo Video
+
+Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
+
+**▶️ Demo Video:**
+https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing
+
+Or click here:
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 
 ## Table of Contents
 
@@ -372,11 +372,6 @@ Covers all four service modules (structural + mocked-network tests) and full rou
 
 ---
 
-## 🎥 Demo Video
-
-Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
-
-[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 ## Future Scope
 
 - Migrate JSON storage to a relational database (schema documented in `docs/ER_DIAGRAM.md`)
