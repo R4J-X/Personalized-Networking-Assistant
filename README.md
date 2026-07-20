@@ -12,6 +12,11 @@
 An AI-powered application that helps professionals walk into any networking event with confidence. Give it an **event description** and your **interests**, and it will generate personalized conversation starters, fact-check topics in real time, and keep a history of everything for you.
 
 ---
+## Demo Video
+
+Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 
 ## Table of Contents
 
@@ -372,11 +377,6 @@ Covers all four service modules (structural + mocked-network tests) and full rou
 
 ---
 
-## Demo Video
-
-Watch the complete end-to-end demonstration of the Personalized Networking Assistant here:
-
-[▶️ Watch Demo Video](https://drive.google.com/file/d/1VvqjElYaf1wUsaNw_CeV_0N4svdEpRIV/view?usp=sharing)
 ## Future Scope
 
 - Migrate JSON storage to a relational database (schema documented in `docs/ER_DIAGRAM.md`)
