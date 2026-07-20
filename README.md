@@ -220,13 +220,14 @@ personalized-networking-assistant/
 ### Clone & Set Up
 
 ```bash
-git clone https://github.com/<your-username>/personalized-networking-assistant.git
-cd personalized-networking-assistant
+git clone https://github.com/R4J-X/Personalized-Networking-Assistant.git
+cd Personalized-Networking-Assistant
 
 python -m venv venv
 
 # macOS / Linux
 source venv/bin/activate
+
 # Windows
 venv\Scripts\activate
 
